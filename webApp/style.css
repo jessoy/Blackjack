@@ -1,0 +1,49 @@
+* {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    opacity: 0.9;
+    text-align: center;
+}
+
+#firstDeal1 {
+    display: none;
+}
+
+#firstDeal2 {
+    display: none;
+}
+
+#secondDeal {
+    display: none;
+}
+
+#thirdDeal {
+    display: none;
+}
+
+#fourthDeal {
+    display: none;
+}
+
+#firstDealer {
+    display: none;
+    margin: 50px;
+}
+
+#firstDealer-hidden {
+    display: none;
+    transform: rotate(90deg);
+    margin: 20px;
+}
+
+.card {
+    margin: 5px;
+    border: 1px;
+    height: 350px;
+    width: 225px;
+    background-color: seagreen;
+}
+
+#DealerButton {
+    display: none;
+}

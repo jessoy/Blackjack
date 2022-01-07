@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title> Blackjack Board Visual </title>
+</head>
+
+<body>
+    <div class='player'>
+        <h1>Player Board</h1>
+        <div class='playerCards'>
+            <section id='firstDeal1' class="card"> 1 </section>
+            <section id='firstDeal2' class="card"> 2 </section>
+            <section id='secondDeal' class="card"> 3 </section>
+            <section id='thirdDeal' class="card"> 4 </section>
+            <section id='fourthDeal' class="card"> 5 </section>
+        </div>
+        <div class='playerButtons'>
+            <button id="Deal">Deal</button>
+            <button id="Hit">Hit</button>
+            <button id="Stand">Stand</button>
+        </div>
+
+        <div class='dealer'>
+            <h1>Dealer Board</h1>
+            <section id='firstDealer' class="card"> 1 </section>
+            <section id='firstDealer-hidden' class="card"> 2 </section>
+
+            <div class='dealerButtons'>
+                <button id="DealerButton">Deal</button>
+            </div>
+    
+        </div>
+    </div>
+
+    <script  src="./main.js"></script>
+</body>
+</html>
